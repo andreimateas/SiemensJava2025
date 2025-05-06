@@ -69,7 +69,7 @@ public class ItemService {
                     }
 
                     processedCount++;
-
+//
                     item.setStatus("PROCESSED");
                     itemRepository.save(item);
                     processedItems.add(item);
